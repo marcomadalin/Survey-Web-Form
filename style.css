@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    overflow: auto;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    color: aliceblue;
+    background-image: radial-gradient(
+        circle,
+        rgba(15, 168, 160, 0.596), 
+        rgba(53, 91, 148, 0.562)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+} 
+
+header {
+    margin: 40px auto 30px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: auto auto 0px auto;
+}
+
+#description {
+    font-size: 1.25rem;
+    margin: 0px auto auto auto;
+}
+
+main {
+    overflow:auto;
+    max-width: 800px;
+    min-width: 400px;
+    height: 100%;
+    background-color: rgba(28, 50, 83, 0.884);
+    margin: auto auto auto auto;
+    border-radius: 5px;
+}
+
+#survey-form {
+    text-align: left;
+    overflow:auto;
+    margin: 20px 45px 40px 45px;
+}
+
+#form-group {
+    overflow:auto;
+    margin: 35px auto 35px auto;
+}
+
+.flex-label {
+    display:flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"], 
+input[type="number"],
+input[type="email"], 
+select{
+    box-sizing:border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    width: 100%;
+    border-style:solid;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px 15px 5px 15px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    color: gray;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none !important;
+    border-color: rgb(0, 152, 199);
+}
+
+input[type="radio"], input[type="checkbox"] {
+    box-sizing:border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    border-style:solid;
+    border-radius: 5px;
+    margin: 3px 3px 3px 3px;
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    margin: 0px 0px 10px 0px;
+}
+
+textarea {
+    box-sizing:border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    border-style:solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+}
+
+button {
+    box-sizing:border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    border-style:solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    color: aliceblue;
+    background-color:#37af65;
+    border-color: #37af65;
+}
